@@ -1,0 +1,1 @@
+target_room = [Room_g1, Room_g2, Room_g3];

@@ -1,0 +1,1 @@
+visible = instance_exists(skud_ob);

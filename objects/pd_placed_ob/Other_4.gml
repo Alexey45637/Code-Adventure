@@ -1,0 +1,1 @@
+linked_house = instance_nearest(x, y, ob_house);

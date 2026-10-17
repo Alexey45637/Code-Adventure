@@ -1,0 +1,9 @@
+depth = -10;
+is_placed = false;
+target_zone = skud_slot_ob;
+dragging = false;
+grab_dx = 0;
+grab_dy = 0;
+progress = 0;
+t = "Загрузка";
+tt = 1;
