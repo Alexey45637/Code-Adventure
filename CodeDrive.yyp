@@ -58,6 +58,7 @@
     {"id":{"name":"skud_ob","path":"objects/skud_ob/skud_ob.yy",},},
     {"id":{"name":"skud_slot_ob","path":"objects/skud_slot_ob/skud_slot_ob.yy",},},
     {"id":{"name":"slot_parent","path":"objects/slot_parent/slot_parent.yy",},},
+    {"id":{"name":"statue_ob","path":"objects/statue_ob/statue_ob.yy",},},
     {"id":{"name":"transition_manager_ob","path":"objects/transition_manager_ob/transition_manager_ob.yy",},},
     {"id":{"name":"Final_room","path":"rooms/Final_room/Final_room.yy",},},
     {"id":{"name":"Garage_room","path":"rooms/Garage_room/Garage_room.yy",},},
