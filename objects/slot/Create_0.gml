@@ -1,16 +1,20 @@
-slot_count = 5;
+slot_count = 15;
 slot_start_x = 100;
 slot_start_y = 100;
 slot_spacing = 112;
 
-slots = [];
+selected_slot = -1;
+slot_columns = 15;
+slot_scale = 3;
 
-for (var i = 0; i < slot_count; i++) {
-    array_push(slots, {
-        thing: noone,
-        count: 0
-    });
-}
+dragging = false;
+drag_slot = -1;
+
+drag_count = 0;
+drag_split = false;
+
+slots = [];
+backpack_ref = noone;
 
 item_limits = ds_map_create();
 ds_map_add(item_limits, gold_con_ob, 16);
@@ -72,11 +76,5 @@ move_item = function(from_id, to_id) {
     remove_item(from_id, moved);
     return moved;
 };
-add_item(0, gold_con_ob, 12);
-add_item(1, gold_con_ob, 14);
 
 var moved = move_item(0, 1);
-
-show_debug_message("Перенесено: " + string(moved));
-show_debug_message("Слот 0: " + string(slots[0].count));
-show_debug_message("Слот 1: " + string(slots[1].count));

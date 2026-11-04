@@ -1,4 +1,4 @@
-if (!instance_exists(Hero_Ob)) {
+saif (!instance_exists(Hero_Ob)) {
     instance_destroy();
     exit;
 }

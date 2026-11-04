@@ -28,6 +28,7 @@
   "name":"CodeDrive",
   "resources":[
     {"id":{"name":"fnt_prompt","path":"fonts/fnt_prompt/fnt_prompt.yy",},},
+    {"id":{"name":"backpack_ob","path":"objects/backpack_ob/backpack_ob.yy",},},
     {"id":{"name":"Button_togo_home_ob","path":"objects/Button_togo_home_ob/Button_togo_home_ob.yy",},},
     {"id":{"name":"buttons_con_ob","path":"objects/buttons_con_ob/buttons_con_ob.yy",},},
     {"id":{"name":"Collision","path":"objects/Collision/Collision.yy",},},
@@ -41,6 +42,7 @@
     {"id":{"name":"drag_cx_ob","path":"objects/drag_cx_ob/drag_cx_ob.yy",},},
     {"id":{"name":"drag_parent","path":"objects/drag_parent/drag_parent.yy",},},
     {"id":{"name":"energy_con_ob","path":"objects/energy_con_ob/energy_con_ob.yy",},},
+    {"id":{"name":"equipment_manager","path":"objects/equipment_manager/equipment_manager.yy",},},
     {"id":{"name":"game_data_ob","path":"objects/game_data_ob/game_data_ob.yy",},},
     {"id":{"name":"gidra_con_ob","path":"objects/gidra_con_ob/gidra_con_ob.yy",},},
     {"id":{"name":"glass_con_ob","path":"objects/glass_con_ob/glass_con_ob.yy",},},

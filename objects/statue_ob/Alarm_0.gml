@@ -1,1 +1,1 @@
-text_visible = false;
+atext_visible = false;
